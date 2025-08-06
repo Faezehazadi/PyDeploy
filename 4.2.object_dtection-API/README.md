@@ -15,7 +15,6 @@ pip install fastapi uvicorn opencv-python numpy
 
 
 
-
 ---
 
 🚀 Running the Server
@@ -25,7 +24,6 @@ Start the FastAPI server with:
 uvicorn main:app --reload
 
 > Replace main with your actual Python file name if it's different.
-
 
 
 
@@ -39,8 +37,7 @@ Request:
 
 Accepts an image PNG file uploaded as form-data with the key: input_file.
 
-
-
+```
 
 ⚙️ How It Works
 
@@ -60,4 +57,3 @@ haarcascade_frontalcatface.xml
 ![result](output.png)
 
 6. Returns the processed image as a JPEG file.
-
