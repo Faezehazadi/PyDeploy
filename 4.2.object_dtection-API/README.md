@@ -37,7 +37,7 @@ POST /object_detection
 
 Request:
 
-Accepts an image file (JPEG, PNG, etc.) uploaded as form-data with the key: input_file.
+Accepts an image PNG file uploaded as form-data with the key: input_file.
 
 
 
@@ -46,7 +46,7 @@ Accepts an image file (JPEG, PNG, etc.) uploaded as form-data with the key: inpu
 
 1. Receives an image file from the client.
 
-![screen shot](input.jpg)
+![cats](input.png)
 
 2. Checks if the uploaded file is an image.
 
@@ -57,7 +57,7 @@ haarcascade_frontalcatface.xml
 
 5. Draws green rectangles around the detected faces.
 
-![screen shot](output.jpg)
+![result](output.png)
 
 6. Returns the processed image as a JPEG file.
 
