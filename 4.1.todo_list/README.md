@@ -17,7 +17,6 @@ Install dependencies:
 ```bash
 pip install fastapi uvicorn
 
-
 ---
 
 🚀 How to Run
@@ -33,7 +32,6 @@ Open your browser to:
 👉 http://127.0.0.1:8000 — basic welcome
 
 👉 http://127.0.0.1:8000/docs — interactive Swagger UI
-
 
 ---
 
@@ -51,12 +49,9 @@ description TEXT Description of the task
 time TEXT Time or deadline as string
 status BOOLEAN Task done or not (default: false)
 
-
-
 ---
 
 🗃️ API Endpoints
-
 
 ---
 
@@ -67,7 +62,6 @@ Returns a welcome message.
 Response:
 
 {"message": "Welcome to the To-Do App"}
-
 
 ---
 
