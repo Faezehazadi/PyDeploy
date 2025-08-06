@@ -43,7 +43,7 @@ Accepts an image PNG file uploaded as form-data with the key: input_file.
 
 1. Receives an image file from the client.
 
-![cats](input.png)
+![input](input.png)
 
 2. Checks if the uploaded file is an image.
 
@@ -54,6 +54,6 @@ haarcascade_frontalcatface.xml
 
 5. Draws green rectangles around the detected faces.
 
-![result](output.png)
-
 6. Returns the processed image as a JPEG file.
+
+![output](output.png)
