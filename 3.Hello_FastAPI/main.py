@@ -19,3 +19,6 @@ def get_piece_info(piece_name: str):
     if piece_name not in chess_pieces:
         raise HTTPException(status_code=404, detail="Chess piece not found")
     return chess_pieces[piece_name]
+
+
+## https://pydeploy-65h9.onrender.com
